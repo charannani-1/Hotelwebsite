@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+	<style>
+	        header{
+            background-color: rgba(255, 228, 196, 0.432);
+        }
+        header ul{
+            display:flex;
+            margin: 0;
+            padding: 35px 100px 20px;;
+            z-index: 10;
+            justify-content: space-evenly;
+        }
+        header li{
+            list-style: none;
+            display: inline-block;
+        }
+        header li a{
+            text-decoration: none;
+            font-size: 20px;
+			color: rgb(40, 226, 170);
+            
+        }
+        header li a:hover{
+            text-decoration: none;
+            font-size: 25px;
+            color: orangered;
+            text-decoration: underline;
+            transition-delay:0.08s;
+            
+        }
+header input{
+    position: absolute;
+    top: 3%;
+    left: 86%;
+    height: 30px;
+}
+
+
+
+    .btn{
+ 	border-radius:20px,20px,20px,20px;
+	 background-color:#B28B15;
+ 	color:white;
+ 	width:175px;
+	 height:40px;
+	 font-size : 20px;
+ 	padding:10px,20px;
+  	border-radius: 25px;
+	}
+	.button{
+ 	border-radius:20px,20px,20px,20px;
+	 background-color:#B28B15;
+ 	color:white;
+ 	width:175px;
+	 height:50px;
+	 font-size : 25px;
+ 	padding-top:10px;
+  	border-radius: 25px;
+	}
+	
+	#head1{
+		font-family:Brush Script MT;
+		font-size:4em;
+		
+		color:#b71c1c;
+	}
+	
+	h2{
+		font-family:Brush Script MT;
+		font-size:3em;
+		
+		color:#B28B15;
+	}
+	#banner_image{
+			padding-top: 0px;
+			 padding-bottom:150px;
+ 			 text-align: center;
+			 color: #f8f8f8;
+			 background: url(bg4.jpg) no-repeat center center;
+ 			 background-size: cover;
+ 			 position:relative;
+			max-height:400px;
+	       }
+	#banner_content
+	{
+		 font-family:Times new Roman;
+		 position: relative;
+		 padding-top: 6%;
+ 		padding-bottom: 6%;
+ 		margin-top: 12%;
+ 		margin-bottom: 12%;
+ 		background-color: rgba(0, 0, 0,0.2 );
+ 		max-width: 660px;
+		}
+	#image .imgthumb:hover img{
+		filter:grayscale(100%);
+		-webkit-filter:grayscale(100%);
+		transition:filter 0.5% ease-in -out;
+	}
+	#image .imgthumb span{
+	display:none;
+	position:absolute;
+	top:95px;
+	left:75px;
+	}
+	footer{
+  background-color: #343a40;
+  padding:50px 20px ;
+}
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+footer li{
+  display: inline-block;
+  
+}
+	</style>
+  </head>
+  <body>
+	<header id="head"> 
+        <nav>
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="about.html"><b>About</b></a></li>
+                <li><a href="gallery.html"><b>Gallery</b></a></li>
+                <li><a href="romms.html"><b>Rooms</b></a></li>
+                <li><a href="services.html"><b>Services</b></a></li>
+                <li><a href="contact.html"><b>Contact</b></a></li>
+            </ul>
+
+            <input type="search" placeholder="Search">
+        </nav>
+    </header>
+	<div id="banner_image" >
+		<div class="container" >
+		<center><div id="banner_content">
+			<h1 id="head1"> Rooms and Suites </h1>
+		</div></center>
+		</div>
+	</div>
+	<div class="container " style="padding-top:10px">
+          
+              <center><h2>Our Best Rooms</h2><center>
+              
+              <p style="width: 40%;">Our hotel has a wide variety of greatly furnished and fully equipped rooms for every guest. Whether you are travelling on busiess or with family, we have what you need to enjoy your stay.</p>
+            
+          </div>
+	<div class="container" style="padding-top:10px;padding-left: 30%;">
+	<div class="row">
+	
+	<div class="col-lg-4">
+	<div class="thumbnail">	
+			<img src="sr.jpg" >
+			<div class="caption">
+				<p><h4 ><b style="float:left">Single Room</center></b>
+				<b style="float:right">from $280</b></h4></p>
+				<br><br>
+				<center><a href="singleroom.html" class="btn btn-primary btn-block">View more</a></center>
+			</div>
+			</div>
+	</div>
+	
+	<div class="col-lg-4">
+	<div class="thumbnail">	
+			<img src="dr.jpg" >
+			<div class="caption">
+				<p><h4 ><b style="float:left">Double Room</center></b>
+				<b style="float:right">from $480</b></h4></p>
+				<br><br>
+				<center><a href="double.html" class="btn btn-primary btn-block">View more</a></center>
+			</div>
+			</div>
+	</div>
+	
+	</div>
+	</div>
+	<div class="container" style="padding-top:10px;padding-left: 30%;">
+	<div class="row">
+	
+	<div class="col-lg-4">
+	<div class="thumbnail">	
+			<img src="fr.jpg" >
+			<div class="caption">
+				<p><h4 ><b style="float:left">Family Room</center></b>
+				<b style="float:right">from $380</b></h4></p>
+				<br><br>
+				<center><a href="family.html" class="btn btn-primary btn-block">View more</a></center>
+			</div>
+			</div>
+	</div>
+
+	<div class="col-lg-4">
+	<div class="thumbnail">	
+			<img src="vip.jpg" >
+			<div class="caption">
+				<p><h4 ><b style="float:left">VIP Suite</center></b>
+				<b style="float:right">from $600</b></h4></p>
+				<br><br>
+				<center><a href="vip.html" class="btn btn-primary btn-block">View more</a></center>
+			</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	
+
+	<footer>
+		<center><h1 style="color: whitesmoke;">HOTEL WS</h1></center>
+		<center><h4 style="color: whitesmoke;">Contact us</h4></center>
+		<ul>
+		<li style="list-style: none;"><a href="https://instagram.com/hotel_ws?igshid=1jx9s023c5g5b"><img src="instalogo.jpg" alt="" style="width: 30px;height: 30px;"></a></li>
+		<li style="list-style: none;"><a href=""><img src="maillogo.png" alt="" style="width: 30px;height: 30px;"></a></li>
+		<li style="list-style: none;"><a href=""><img src="fblogo.jpg" alt="" style="width: 30px;height: 30px;"></a></li>
+		
+		</ul>
+		<center><h5 style="color: whitesmoke;">HOTEL WS ©️ Copyright 2021 </h5></center>
+		  </footer>
+  </body>
+</html>

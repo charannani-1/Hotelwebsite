@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!--fontasome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<style>
+    header{
+            background-color: rgba(255, 228, 196, 0.432);
+        }
+        header ul{
+            display:flex;
+            margin: 0;
+            padding: 35px 100px 20px;;
+            z-index: 10;
+            justify-content: space-evenly;
+        }
+        header li{
+            list-style: none;
+            display: inline-block;
+        }
+        header li a{
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(40, 226, 170);
+            
+        }
+        header li a:hover{
+            text-decoration: none;
+            font-size: 25px;
+            color: orangered;
+            text-decoration: underline;
+            transition-delay:0.08s;
+            
+        }
+header input{
+    position: absolute;
+    top: 3%;
+    left: 86%;
+    height: 30px;
+}
+
+    .container{
+
+padding: 5px;
+line-height: 1rem;
+}
+.ham{
+border-radius: 25px;
+}
+.fas{
+color: goldenrod;
+}
+
+.cha
+{
+position: absolute;
+left: 60%;
+top: 13%;
+}
+
+.var input{
+width: 40%;
+height: 45px;
+
+}
+.button{
+border: solid 2px black;
+width: 7% ;
+height: 35px;
+border-radius: 25px;
+}
+.cha h3{
+font-size: 35px;
+
+}
+.cha p{
+font-size: 20px; 
+}
+.container h1{
+text-decoration: 3.5px underline goldenrod;
+
+}
+body{
+
+background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+background-size:cover ;
+margin: 0;
+padding: 0;
+}
+
+footer{
+  background-color: #343a40;
+  padding:50px 20px ;
+}
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+footer li{
+  display: inline-block;
+  
+}
+
+</style>
+  </head>
+<body>
+
+	<header id="head"> 
+    <nav>
+        <ul>
+            <li><a href="index.html"><b>Home</b></a></li>
+            <li><a href="about.html"><b>About</b></a></li>
+            <li><a href="gallery.html"><b>Gallery</b></a></li>
+            <li><a href="romms.html"><b>Rooms</b></a></li>
+            <li><a href="services.html"><b>Services</b></a></li>
+            <li><a href="contact.html"><b>Contact</b></a></li>
+        </ul>
+
+        <input type="search" placeholder="Search">
+    </nav>
+</header>
+
+    <div class="container">  
+        <form class="form1" action="" method="post">
+          <center><h1>  Contact Us  </h1></center>
+          
+          <div class="var">
+            <input class="ham" placeholder="Your name" type="text" tabindex="1" required autofocus style="height: 45px;">
+            <br>
+            <br>
+            <br>
+          
+            
+              <input class="ham" placeholder="Your Email Address" type="email" tabindex="2" required style="height:45px;">
+            <br>
+            <br>
+            <br>
+          
+            
+              <input class="ham"  placeholder="Your Phone Number " type="tel" tabindex="3" required style="height:45px;">
+            <br>
+            <br>
+            <br>
+            
+              <input class="ham"  placeholder="Your email " type="url" tabindex="4" required style="height: 45px;">
+            <br>
+            <br>
+            <br>
+            
+              <textarea class="ham"  placeholder="Type your message here...." tabindex="5" required style="height:120px; width: 35%;"></textarea>
+            <br>
+            <br>
+            <br>
+          </div>
+
+   
+          
+            <button class="button" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            <br>
+            <br>
+              
+        </form>
+      </div>
+  <div class="cha">
+    <h3> <u>Address</u>  </h3> 
+    <p> <i class="fas fa-map-marker-alt"></i> LB nagar,Hyderbad,India,500074</p> 
+     
+    <h3> <u>Phone numbers</u>  </h3> 
+    <p> <i class="fas fa-phone-alt"></i> 040-435678, 040-4355679</p> 
+
+    <h3> <u>Email</u>  </h3> 
+    <p> <i class="fas fa-envelope"></i> hotelws@gmail.com</p> 
+
+    <h3> <u>Booking hours</u>  </h3> 
+    <p> <i class="fas fa-clock"></i> 9:00 am to 6:00pm</p> 
+  </div>
+     
+  <div class="col-lg-6 col-md-6 col-sm-12" id="contact-map">
+    <a target="_blank"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1A5XCtDMGY-uNKytUCDHn4Z77v8s&ie=UTF8&hl=en&msa=0&ll=17.442955801943825%2C78.50371991320311&spn=0.027185%2C0.066862&z=15&output=embed" alt="map" id="map" width="600px" height="430px"frameborder="0" aria-hidden="false" tabindex="0"></iframe></a>
+</div>       
+      
+<footer>
+  <center><h1 style="color: whitesmoke;">HOTEL WS</h1></center>
+  <center><h4 style="color: whitesmoke;">Contact us</h4></center>
+  <ul>
+  <li style="list-style: none;"><a href="https://instagram.com/hotel_ws?igshid=1jx9s023c5g5b"><img src="instalogo.jpg" alt="" style="width: 30px;height: 30px;"></a></li>
+  <li style="list-style: none;"><a href=""><img src="maillogo.png" alt="" style="width: 30px;height: 30px;"></a></li>
+  <li style="list-style: none;"><a href=""><img src="fblogo.jpg" alt="" style="width: 30px;height: 30px;"></a></li>
+  
+  </ul>
+  <center><h5 style="color: whitesmoke;">HOTEL WS ©️ Copyright 2021 </h5></center>
+    </footer>
+
+</body>
+</html>

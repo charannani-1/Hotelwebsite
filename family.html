@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Rooms</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+
+<head>
+  <title>Gallery</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background: rgba(219, 219, 219, 0.8);
+      margin: 0;
+      padding: 0;
+    }
+    header{
+            background-color: rgba(255, 228, 196, 0.432);
+        }
+        header ul{
+            display:flex;
+            margin: 0;
+            padding: 35px 100px 20px;;
+            z-index: 10;
+            justify-content: space-evenly;
+        }
+        header li{
+            list-style: none;
+            display: inline-block;
+        }
+        header li a{
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(40, 226, 170);
+            
+        }
+        header li a:hover{
+            text-decoration: none;
+            font-size: 25px;
+            color: orangered;
+            text-decoration: underline;
+            transition-delay:0.08s;
+            
+        }
+header input{
+    position: absolute;
+    top: 3%;
+    left: 86%;
+    height: 30px;
+}
+    .gallery {
+      border: 3px solid darkgray;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    .slides {
+      padding: 10px 10px;
+      float: left;
+      width: 25%;
+    }
+.slides button{
+    border: solid 1px black;
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color:#B28B15;
+}
+.slides button a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+    @media (max-width: 900px) {
+      .slides {
+        width: 50%;
+        margin: 6px 0;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .slides {
+        width: 100%;
+      }
+    }
+
+    .im:hover {
+      transform: scale(1.1);
+      transition: 0.5s;
+      overflow: hidden;
+      border-radius: 5%;
+      box-shadow: 10px 10px 40px whitesmoke;
+    }
+
+    footer{
+  background-color: #343a40;
+  padding:50px 20px ;
+}
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+footer li{
+  display: inline-block;
+  
+}
+
+  </style>
+</head>
+
+<body>
+
+	<header id="head"> 
+        <nav>
+            <ul>
+                <li><a href="index.html"><b>Home</b></a></li>
+                <li><a href="about.html"><b>About</b></a></li>
+                <li><a href="gallery.html"><b>Gallery</b></a></li>
+                <li><a href="romms.html"><b>Rooms</b></a></li>
+                <li><a href="services.html"><b>Services</b></a></li>
+                <li><a href="contact.html"><b>Contact</b></a></li>
+            </ul>
+
+            <input type="search" placeholder="Search">
+        </nav>
+    </header>
+
+  <h1 style="text-align: center; color: #cf65b9;font-size:5vw;">Family Bed Room</h1>
+  <div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="s1.jpg" target="_blank"><img class="im" src="s1.jpg" width="300" height="200" /></a>
+    </div><br>
+    <center><button><a href="account.html">Rent</a></button></center>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="s2.jpg" target="_blank"><img class="im" src="s2.jpg" width="300" height="200" /></a>
+    </div><br>
+    <center><button><a href="account.html">Rent</a></button></center>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="s3.jpg" target="_blank"><img class="im" src="s3.jpg" width="300" height="200" /></a>
+    </div><br>
+    <center><button><a href="account.html">Rent</a></button></center>
+  </div>
+  <div class="slides">
+    <div class="gallery">
+      <a href="s4.jpg" target="_blank"><img class="im" src="s4.jpg" width="300" height="200" /></a>
+    </div><br>
+    <center><button><a href="account.html" >Rent</a></button></center>
+  </div>
+</div>
+ 
+  <br><br>
+
+
+  <footer>
+    <center><h1 style="color: whitesmoke;">HOTEL WS</h1></center>
+    <center><h4 style="color: whitesmoke;">Contact us</h4></center>
+    <ul>
+    <li style="list-style: none;"><a href="https://instagram.com/hotel_ws?igshid=1jx9s023c5g5b"><img src="instalogo.jpg" alt="" style="width: 30px;height: 30px;"></a></li>
+    <li style="list-style: none;"><a href=""><img src="maillogo.png" alt="" style="width: 30px;height: 30px;"></a></li>
+    <li style="list-style: none;"><a href=""><img src="fblogo.jpg" alt="" style="width: 30px;height: 30px;"></a></li>
+    
+    </ul>
+    <center><h5 style="color: whitesmoke;">HOTEL WS ©️ Copyright 2021 </h5></center>
+      </footer>
+
+</body>
+
+</html>
+</body>
+</html>
